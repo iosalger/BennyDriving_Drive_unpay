@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<dict>
+		<key>About</key>
+		<dict>
+			<key>text</key>
+			<string>	
+      2009年09月10日工商局正式批准注册汽车驾驶服务公司。我们的公司上海邦尼汽车驾驶服务有限公司在经历了1个多月计划和筹备后，于2009年10月正式通过工商部门拿到 营业执照。2010年10月我们的公司在运作了1年后因为发展需要，更名为：上海邦尼汽车租赁有限公司。简称：邦尼驾驶。    
+我们专注于上海地区汽车驾驶服务和汽车租赁服务业务。我们始终以为客户提供最安全、最优质的服务作为最根本的服务宗旨,我们力求成为您心目中最值得信赖的汽车驾驶服务与汽车租赁服务公司。我们将竭诚为您提供最用心、最优质的服务。
+我们致力于汽车驾驶与汽车租赁行业二年中，始终秉承以客户为中心的理念，注重听取客户的信息反馈。在此过程中我们不断摸索及优化服务模式。现在，我们以最规范的管理和最人性化的服务呈现在您的面前。我们打破常规，根据您的服务要求，为您量身制定相应的合作方案。</string>
+			<key>image</key>
+			<string>about_img.png</string>
+			<key>title</key>
+			<string>邦 尼 驾 驶</string>
+		</dict>
+		<key>Gallery</key>
+		<dict>
+			<key>imagesAndTitlesItems</key>
+			<array>
+				<string>Hall</string>
+				<string>img1.png</string>
+				<string>img2.png</string>
+				<string>img3.png</string>
+				<string>img4.png</string>
+				<string>img5.png</string>
+				<string>Standard Room</string>
+				<string>img6.png</string>
+				<string>img7.png</string>
+				<string>img8.png</string>
+				<string>img6.png</string>
+				<string>img6.png</string>
+				<string>img1.png</string>
+				<string>img2.png</string>
+				<string>Suite</string>
+				<string>img1.png</string>
+				<string>img2.png</string>
+				<string>img3.png</string>
+				<string>img4.png</string>
+				<string>img5.png</string>
+			</array>
+			<key>videosItems</key>
+			<array>
+				<string>Movie.m4v</string>
+			</array>
+		</dict>
+		<key>Reservation</key>
+		<dict>
+			<key>roomCategories</key>
+			<array>
+				<dict>
+					<key>categoryPrice</key>
+					<string>400</string>
+					<key>categoryName</key>
+					<string>Deluxe</string>
+				</dict>
+				<dict>
+					<key>categoryPrice</key>
+					<string>300</string>
+					<key>categoryName</key>
+					<string>Superior</string>
+				</dict>
+				<dict>
+					<key>categoryPrice</key>
+					<string>200</string>
+					<key>categoryName</key>
+					<string>Moderate</string>
+				</dict>
+				<dict>
+					<key>categoryPrice</key>
+					<string>100</string>
+					<key>categoryName</key>
+					<string>Standard</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Contacts</key>
+		<dict>
+			<key>contactsInfo</key>
+			<dict>
+				<key>email</key>
+				<string>contact@thehotel.com</string>
+				<key>telephone</key>
+				<string>001122334455</string>
+				<key>message</key>
+				<string>Please feel free to contact us if  you have any questions or would like to book</string>
+				<key>title</key>
+				<string>The Hotel</string>
+				<key>address</key>
+				<string>5th June Avenue Victoria</string>
+				<key>postOffice</key>
+				<string>01234 Seychelles</string>
+				<key>webPage</key>
+				<string>www.thehotel.com</string>
+			</dict>
+			<key>locationItems</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>The Hotel</string>
+					<key>latitude</key>
+					<real>48.855172</real>
+					<key>longitude</key>
+					<real>2.327943</real>
+					<key>address</key>
+					<string>5th June Avenue Victoria, City</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

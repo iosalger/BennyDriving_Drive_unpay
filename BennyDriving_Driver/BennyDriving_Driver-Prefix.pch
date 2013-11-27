@@ -11,4 +11,13 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "DealHelper.h"
 #endif
+
+typedef enum
+{
+    web1=0,
+    web2,
+    web3,
+    web4,
+}webType;

@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset128 HiraKakuProN-W3;\f2\fnil\fcharset134 STHeitiSC-Light;
+}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 \{\
+    "driname": "
+\f1 \'89\'a4
+\f2 \'ca\'a6\'b8\'b5
+\f0 ",\
+    "drirecords": \{\
+        "withdrowRec": \{\
+            "wrpaydate": "2013-9-1",\
+            "wrtime": "18:00:00",\
+            "wrapplydate": "2013-9-3",\
+            "wrapplyamout": "100",\
+            "wrpayamount": "100",\
+            "wrid": "12345678965465",\
+            "wrbank": "
+\f1 \'8c\'f0\'92\'ca
+\f2 \'d2\'f8\'d0\'d0\'c9\'cf\'ba\'a3\'ba\'e7\'bf\'da\'d6\'a7\'d0\'d0
+\f0 ",\
+            "wrstatus": "
+\f1 \'90\'ac\'8c\'f7
+\f0 ",\
+            "crtype": "
+\f1 \'e3\'a4\'8f\'e3\'8e\'78\'95\'74
+\f0 "\
+        \},\
+        "chargeRec": \{\
+            "crdate": "2013-9-1",\
+            "crtime": "18:00:00",\
+            "cramount": "100",\
+            "crid": "12345678965465",\
+            "crstatus": "
+\f1 \'90\'ac\'8c\'f7
+\f0 ",\
+            "crtype": "
+\f1 \'e3\'a4\'8f\'e3\'8e\'78\'95\'74
+\f0 "\
+        \},\
+        "consumeRec": \{\
+            "csrdate": "2013-9-1",\
+            "csrtime": "18:00:00",\
+            "csramount": "100",\
+            "csrid": "12345678965465",\
+            "csrstatus": "
+\f1 \'90\'ac\'8c\'f7
+\f0 ",\
+            "csrtype": "
+\f1 \'91\'e3
+\f2 \'bc\'dd\'b7\'fe\'ce\'f1
+\f0 "\
+        \}\
+    \}\
+\}}

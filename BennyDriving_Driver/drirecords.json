@@ -1,0 +1,30 @@
+{
+    "name":[{"Title":"姓名","Value":"王师傅"}],
+    "withdrowRec": [
+                    {"Title":"wrpaydate","Value": "2013-9-1"},
+                    {"Title":"wrtime","Value": "18:00:00"},
+            {"Title":"wrapplydate","Value": "2013-9-3"},
+                    {"Title":"wrapplyamout","Value": "100"},
+                    {"Title":"wrpayamount","Value":"100"},
+            {"Title":"wrid","Value": "12345678965465"},
+            {"Title":"wrbank","Value": "交通银行上海虹口支行"},
+            {"Title":"wrstatus","Value": "成功"},
+            {"Title":"crtype","Value":"网上支付"}
+        ],
+    "chargeRec": [
+            {"Title":"crdate","Value": "2013-9-1"},
+            {"Title":"crtime","Value": "18:00:00"},
+            {"Title":"cramount","Value": "100"},
+            {"Title":"crid","Value": "12345678965465"},
+            {"Title":"crstatus","Value":"成功"},
+            {"Title":"crtype","Value":"网上支付"}
+        ],
+    "consumeRec": [
+            {"Title":"csrdate","Value": "2013-9-1"},
+            {"Title":"csrtime","Value": "18:00:00"},
+            {"Title":"csramount","Value": "100"},
+            {"Title":"csrid","Value": "12345678965465"},
+            {"Title":"csrstatus","Value": "成功"},
+            {"Title":"csrtype","Value": "代驾服务"}]
+        
+}

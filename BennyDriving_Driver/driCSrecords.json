@@ -1,0 +1,29 @@
+{
+    "name":[{"Title":"姓名","Value":"王师傅"}],
+    "consumeRec": [{
+                   "csrdate": "2013-7-1",
+                   "csrtime": "18:00:00",
+                   "csramount": "100",
+                   "csrid": "11111111111111",
+                   "csrstatus": "成功",
+                   "csrtype": "代驾服务"
+                   },
+                   {
+                   "csrdate": "2013-8-1",
+                   "csrtime": "18:00:00",
+                   "csramount": "200",
+                   "csrid": "2222222222222",
+                   "csrstatus": "成功",
+                   "csrtype": "代驾服务"
+                   },
+                   {
+                   "csrdate": "2013-9-1",
+                   "csrtime": "18:00:00",
+                   "csramount": "300",
+                   "csrid": "33333333333333",
+                   "csrstatus": "成功",
+                   "csrtype": "代驾服务"
+                   }
+                   
+        ]
+}

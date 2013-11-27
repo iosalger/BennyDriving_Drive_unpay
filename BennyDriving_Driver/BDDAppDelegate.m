@@ -7,19 +7,59 @@
 //
 
 #import "BDDAppDelegate.h"
-
 #import "BDDViewController.h"
+#import "SharedObj.h"
+#import "SevCenterVC.h"
+#import "LoginVC.h"
+
 
 @implementation BDDAppDelegate
+
+@synthesize window,viewController,navHome,ws;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+   //self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 10, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-10)];
+    self.ws = web1;
     self.viewController = [[BDDViewController alloc] initWithNibName:@"BDDViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goSevCentre) name:@"goSevCentre" object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goHome) name:@"goHomeVC" object:nil];
+    
+    self.navHome = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = self.navHome;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)goHome
+{
+    self.viewController = [[BDDViewController alloc] init];
+    self.navHome = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = self.navHome;
+}
+
+-(void)goSevCentre
+{
+        if([[SharedObj sharedOBJ].logindriid isEqualToString:@""])
+        {
+            LoginVC *login = [[LoginVC alloc] init];
+            self.navHome = [[UINavigationController alloc] initWithRootViewController:login];
+            self.window.rootViewController = self.navHome;
+            
+        }else if(![[SharedObj sharedOBJ].logindriid isEqualToString:@""])
+        {
+            SevCenterVC *scVC = [[SevCenterVC alloc] init];
+            self.navHome = [[UINavigationController alloc] initWithRootViewController:scVC];
+            self.window.rootViewController = self.navHome;
+        }
+
+//    DriMapVC *DriMap = [[DriMapVC alloc] initWithNibName:@"DriMapVC" bundle:nil];
+//    DriMap.delegate = self;
+//    self.navHome = [[UINavigationController alloc] initWithRootViewController:DriMap];
+//    self.window.rootViewController = self.navHome;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

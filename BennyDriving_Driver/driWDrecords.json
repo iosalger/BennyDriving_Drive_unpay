@@ -1,0 +1,35 @@
+{
+    "name":[{"Title":"姓名","Value":"王师傅"}],
+    "withdrowRec": [
+                    {
+            "wrpaydate": "2013-7-1",
+            "wrtime": "18:00:00",
+            "wrapplydate": "2013-7-3",
+            "wrapplyamout": "100",
+            "wrpayamount": "100",
+            "wrid": "111111111111111",
+            "wrbank": "交通银行上海虹口支行",
+            "wrstatus": "成功",
+            "crtype": "网上支付"
+                    },
+            {"wrpaydate": "2013-8-1",
+                    "wrtime": "18:00:00",
+                    "wrapplydate": "2013-8-3",
+                    "wrapplyamout": "200",
+                    "wrpayamount": "200",
+                    "wrid": "2222222222222",
+                    "wrbank": "交通银行上海虹口支行",
+                    "wrstatus": "成功",
+                    "crtype": "网上支付"
+                    },
+                {"wrpaydate": "2013-9-1",
+                    "wrtime": "18:00:00",
+                    "wrapplydate": "2013-9-3",
+                    "wrapplyamout": "300",
+                    "wrpayamount": "300",
+                    "wrid": "33333333333333",
+                    "wrbank": "交通银行上海虹口支行",
+                    "wrstatus": "失败",
+                    "crtype": "网上支付"
+                    }]
+}
